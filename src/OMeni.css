@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #0d0d0f;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root{
+    /* --title-font: "August"; */
+    --title-font: 'Syne', sans-serif;
+    --main-font: 'Inter', sans-serif;
+
+    --subtxt-color: #555454;
+}
+
+
+.arrow{
+    transform: rotate(-180deg);
+}
+
+
+#head{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 20px;
+}
+
+#title{
+        color: #fff;
+    font-size: 3.1rem;
+    font-family: var(--title-font);
+    font-weight: 800;
+}
+
+#subtxt{
+    text-align: center;
+    font-family: var(--main-font);
+    color: var(--subtxt-color);
+}
+
+#line{
+    display: block;
+    width: 300px;
+    height: 1px;
+
+    margin: 8px auto;
+    background-color: #555454b2;
+}
+
+.ms{
+        display: flex;
+    justify-content: center;
+
+    color: #fff;
+    flex-direction: column;
+}
+
+.isk{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    gap: 25px;
+
+    font-family: var(--main-font);
+
+}
+
+.buttonw{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: inherit;
+    border: 1px solid #555454b2;
+    color: #fff;
+    cursor: pointer;
+}
